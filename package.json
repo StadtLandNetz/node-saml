@@ -50,7 +50,8 @@
     "tsc-watch": "tsc --watch",
     "update:major": "npx npm-check-updates -i",
     "update:minor": "npx npm-check-updates -i -t minor",
-    "watch": "concurrently --kill-others \"npm:*-watch\""
+    "watch": "concurrently --kill-others \"npm:*-watch\"",
+    "postinstall": "npx tsc"
   },
   "dependencies": {
     "@types/debug": "^4.1.12",
