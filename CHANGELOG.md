@@ -1,6 +1,53 @@
 # Changelog
 
-## 5.0.0 (2024-02-27)
+## 5.1.0 (2025-07-21)
+
+### 🚀 Minor Changes
+
+- Export custom SamlStatusError [#394](https://github.com/node-saml/node-saml/pull/394)
+
+### 🔗 Dependencies
+
+- Update dependencies [#391](https://github.com/node-saml/node-saml/pull/391)
+
+### 🐛 Bug Fixes
+
+- [**security**] Use new .signedReferences interace in xml-crypto to "see what is signed" [#397](https://github.com/node-saml/node-saml/pull/397)
+
+### 📚 Documentation
+
+- update sponsors-Stytch [#395](https://github.com/node-saml/node-saml/pull/395)
+
+### ⚙️ Technical Tasks
+
+- Add CI test & lint for Node.js 22 [#386](https://github.com/node-saml/node-saml/pull/386)
+- Adjust linting rules for line endings [#393](https://github.com/node-saml/node-saml/pull/393)
+
+---
+
+## v5.0.1 (2025-03-14)
+
+### 🚀 Minor Changes
+
+- feat: improve error messages when validating pems [#373](https://github.com/node-saml/node-saml/pull/373)
+
+### 🐛 Bug Fixes
+
+- [**security**] Update xml-crypto to address CVE [#388](https://github.com/node-saml/node-saml/pull/388)
+
+### 📚 Documentation
+
+- docs: Update README.md set never default validateInResponseTo [#384](https://github.com/node-saml/node-saml/pull/384)
+- Docs: add pitch to encourage more sponsors [#366](https://github.com/node-saml/node-saml/pull/366)
+- Update sponsor acknowledgements [#365](https://github.com/node-saml/node-saml/pull/365)
+
+### ⚙️ Technical Tasks
+
+- Adjust to support type stripping [#389](https://github.com/node-saml/node-saml/pull/389)
+
+---
+
+## v5.0.0 (2024-02-27)
 
 ### 💣 Major Changes
 
